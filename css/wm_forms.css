@@ -88,21 +88,24 @@ textarea {
 }
 
 /* Placeholder Styles */
-input::-webkit-input-placeholder {
+textarea::-webkit-input-placeholder {
 	background-color: rgb(255, 255, 191);
 	color: rgb(255, 151, 151);
 	font-size: 1.5em;
 }
-input::-ms-input-placeholder {
+
+textarea::-ms-input-placeholder {
 	background-color: rgb(255, 255, 191);
 	color: rgb(255, 151, 151);
 	font-size: 1.5em;
 }
-input::-moz-placeholder {
+
+textarea::-moz-placeholder {
 	background-color: rgb(255, 255, 191);
 	color: rgb(255, 151, 151);
 	font-size: 1.5em;
 }
+
 
 
 
